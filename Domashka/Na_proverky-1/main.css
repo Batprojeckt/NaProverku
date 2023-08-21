@@ -1,0 +1,23 @@
+div{
+	background-color: gray;
+	color: white;
+	font-size: 19px;
+}
+.color {
+	color: blueviolet;
+}
+.block {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+.wrap {
+	background-color: #d059eed2;
+	width: 300px;
+	color: black;
+	font-size: 18px;
+}
+.wrap_text{
+	background-color: #d400ff;
+	color: white;
+}

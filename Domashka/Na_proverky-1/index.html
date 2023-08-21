@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home Work 1</title>
+	<!-- Тут закомментированно подключение стилей,все значения продублировнны в теге style 
+	<link rel="stylesheet" href="main.css">-->
+	<style>
+		div{
+	background-color: gray;
+	color: white;
+	font-size: 19px;
+}
+.color {
+	color: blueviolet;
+}
+.block {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+.wrap {
+	background-color: #d059eed2;
+	width: 300px;
+	color: black;
+	font-size: 18px;
+}
+.wrap_text{
+	background-color: #d400ff;
+	color: white;
+}
+	</style>
+</head>
+<body>
+	<div>
+		<span>
+		Всем привет, сегодня я что-то сделал <span class="color">по видеоурокам!</span>
+		</span>
+		<!-- Я так понял,что можно было обойтись и без главного span, но показалось что он будет тут уместным и лучше сделать отдельный span с классом -->
+		<div class="block"></div>
+	</div>
+	<div class="wrap">
+	<span class="text_size">А здесь и эелементы какие-то:</span>
+		<span class="wrap_text">Элемент</span>
+		<span class="wrap_text">Элемент</span>
+		<span class="wrap_text">Элемент</span>
+		<span class="wrap_text">Элемент</span>
+		<span class="wrap_text">Элемент</span>
+		<span class="wrap_text">Элемент</span>
+		<span class="wrap_text">Элемент</span>
+		<span class="wrap_text">Элемент</span>
+		<span class="wrap_text">Элемент</span>
+		<span class="wrap_text">Элемент</span>
+		<span class="wrap_text">Элемент</span>
+		<span class="wrap_text">Элемент</span>
+		<!-- Пришлось поиграться с высотой текста,чтобы подогнать под пример как на видео!
+		Понял ошубку с оборачиванием текста в тег span в первом div, можно было бы не заморачиваться и не прописывать повторяющимся элементам класс...но решил так и оставить-->
+	</div>
+</body>
+</html>
