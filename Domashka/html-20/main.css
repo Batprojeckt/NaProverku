@@ -1,0 +1,16 @@
+.block {
+    background-color: #c57a08;
+    height: 60px;
+}
+.text{
+    background-color: #e9c706;
+}
+.block__bottom {
+    background-color: rgb(88, 5, 156);
+    height: 300px;
+    color: white;
+    text-decoration: none;
+}
+.block__bottom a{
+    color: white;
+}
