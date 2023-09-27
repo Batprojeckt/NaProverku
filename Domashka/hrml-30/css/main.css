@@ -1,0 +1,47 @@
+body {
+    font-size: 40px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    /* Суммирует значение элемент+отступ в заданные width и height размеры */
+}
+
+.block, .inline {
+    background-color: #a8eee8;
+}
+
+/* ============================================================================ */
+.block {
+    padding: 20px 15px;
+    margin: 0 0 20px 0;
+    /* Margin может принимать отрицательные значения, притягивая элементы */
+    width: 1000px;
+    height: 200px;
+    border: 5px solid #3a2a94;
+    border-width: 10px;
+    border-style: dotted;
+    border-color: #000;
+    border-top: none;
+    border-bottom: none;
+    /* border-radius: 10px; */
+
+}
+
+.inline {
+    /* padding: 15px;
+    margin: 20px;
+    Для строчных элементов значения padding/margin приминяются для КАЖДОГО строчного элемента */
+}
+
+.img {
+    /* width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+    Padding/margin для тега img суммируется с размерами width и height в нахлест, не меняя исходные размеры */
+    border-radius: 50%;
+    border: 5px dashed #000;
+}
