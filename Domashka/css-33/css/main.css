@@ -1,0 +1,21 @@
+.parent{
+    background-color: #70bae8;
+    margin: 5px;
+    height: 400px;
+    border: 1px solid #000;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+div{
+    background-color: #92640f;
+    width: 350px;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #000, inset -2px -2px 2px #fff;
+}
