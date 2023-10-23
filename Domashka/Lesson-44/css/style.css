@@ -88,6 +88,7 @@ body {
     border: 2px solid #D0DCE7;
     width: 286px;
     height: 1170px;
+    margin-right: 126px;
 }
 
 .aside-list {
@@ -100,25 +101,25 @@ body {
 
 .aside-item {
     padding-bottom: 20px;
-    /* font-size: 12px; */
-    font-size: 16px;
+    font-size: 12px;
+    /* Если оставить дефолтное занчение текст переноситься, так же если применить свойства запрещающие перенос текста, исходные размер aside меняются */
 }
 
 /* ============================================================ */
 
 .gallery {
-    margin-left: 126px;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-
+    height: 798px;
 
 }
 
 .row {
-    width: 792px;
     display: flex;
+    width: 792px;
     flex-flow: row nowrap;
     gap: 24px 24px;
+    margin-bottom: 20px;
 
 }
 
@@ -128,18 +129,84 @@ body {
     gap: 24px 24px;
 }
 
+.row-rev {
+    display: flex;
+    justify-content: stretch;
+    flex-flow: row nowrap;
+    gap: 24px 24px;
+    margin-bottom: 120px;
+}
 
 .row-list-rev {
     display: flex;
     flex-flow: row wrap;
-    /* margin-left: -24px; */
     gap: 24px 24px;
 }
 
-.row-rev {
+/* ======================================================================= */
+
+
+.watch-list {
     width: 792px;
-    margin-top: 20px;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     gap: 24px 24px;
+    margin-left: auto;
+    margin-top: -252px;
+    margin-bottom: 120px;
+}
+
+.watch-list-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D0DCE7;
+}
+
+.watch-list-item img {
+    width: 381px;
+}
+
+span {
+    background: #F8FCFF;
+    color: #1D6FB6;
+    width: 130px;
+    border-radius: 0px 100px 100px 0px;
+    font-weight: 500;
+    padding: 18px 30px;
+    margin-top: 30px;
+    margin-left: -1px;
+    position: absolute;
+}
+
+.list-buttons {
+    text-align: center;
+    margin: 30px 48px;
+    padding: 18px 30px;
+    line-height: 20px;
+    font-weight: 500;
+    background: #D0DCE7;
+    border-radius: 100px;
+    color: #1D6FB6;
+}
+
+/* ====================================================================== */
+
+.footer {
+    background: #788088;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.footer-link {
+    margin-right: 10px;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #F8FCFF;
 }
