@@ -1,0 +1,40 @@
+body {
+    background: #454545;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+    padding-top: 40px;
+}
+
+.title::before {
+    content: '';
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgb(243, 66, 66);
+    border: 5px solid white;
+    position: absolute;
+    transform: translateX(-200px);
+}
+
+.title {
+    display: flex;
+    font-size: 100px;
+    color: white;
+    margin: 0 auto;
+}
+
+.title::after {
+    content: '';
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background: rgb(81, 81, 235);
+    position: absolute;
+    transform: translateX(530px);
+}
