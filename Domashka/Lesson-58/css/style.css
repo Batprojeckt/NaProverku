@@ -67,7 +67,7 @@ body {
 
 .box span {
     opacity: 0;
-    transition: 1s 1s;
+    transition: .5s .8s;
 }
 
 .box__scale {
