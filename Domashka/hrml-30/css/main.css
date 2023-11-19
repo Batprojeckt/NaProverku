@@ -37,11 +37,11 @@ body {
 }
 
 .img {
-    /* width: 400px;
+    width: 400px;
     height: 400px;
     padding: 20px;
     margin: 20px;
-    Padding/margin для тега img суммируется с размерами width и height в нахлест, не меняя исходные размеры */
+    /* Padding/margin для тега img суммируется с размерами width и height в нахлест, не меняя исходные размеры */
     border-radius: 50%;
     border: 5px dashed #000;
 }
