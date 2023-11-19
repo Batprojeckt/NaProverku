@@ -8,17 +8,7 @@ body {
     padding-top: 40px;
 }
 
-.title::before {
-    content: '';
-    display: flex;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: rgb(243, 66, 66);
-    border: 5px solid white;
-    position: absolute;
-    transform: translateX(-200px);
-}
+
 
 .title {
     display: flex;
@@ -27,6 +17,7 @@ body {
     margin: 0 auto;
 }
 
+.title::before,
 .title::after {
     content: '';
     display: flex;
@@ -34,7 +25,15 @@ body {
     height: 100px;
     border-radius: 50%;
     border: 5px solid white;
-    background: rgb(81, 81, 235);
     position: absolute;
+}
+
+.title::before {
+    background: rgb(243, 66, 66);
+    transform: translateX(-200px);
+}
+
+.title::after {
+    background: rgb(81, 81, 235);
     transform: translateX(530px);
 }
