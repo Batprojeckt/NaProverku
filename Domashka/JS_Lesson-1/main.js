@@ -1,11 +1,19 @@
-const firstName = "John"
-let age = 20
+// const firstName = "John"
+// let age = 20
 
-const lastName = ('Smith')
+// const lastName = ('Smith')
 
-console.log(firstName, lastName, age, 'y.o')
+// console.log(firstName, lastName, age, 'y.o')
 
-age = 30
+// age = 30
 
-console.log(age)
+// console.log(age)
 
+// ==================================================
+const firstName = 'Pavel'
+const lastName = 'Shusrtrov'
+let age = '28 y.o'
+const sex = 'male'
+let profession = 'student'
+
+console.log(firstName, lastName, age, sex, profession)
