@@ -12,8 +12,8 @@
 // ==================================================
 const firstName = "Pavel";
 const lastName = "Shusrtrov";
-let age = "28 y.o";
+let age = "28";
 const sex = "male";
 let profession = "student";
 
-console.log(firstName, lastName, age, sex, profession);
+console.log(firstName, lastName, age + ' ' + 'y.o', sex, profession);
