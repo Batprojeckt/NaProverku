@@ -10,10 +10,10 @@
 // console.log(age)
 
 // ==================================================
-const firstName = 'Pavel'
-const lastName = 'Shusrtrov'
-let age = '28 y.o'
-const sex = 'male'
-let profession = 'student'
+const firstName = "Pavel";
+const lastName = "Shusrtrov";
+let age = "28 y.o";
+const sex = "male";
+let profession = "student";
 
-console.log(firstName, lastName, age, sex, profession)
+console.log(firstName, lastName, age, sex, profession);
