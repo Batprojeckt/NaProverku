@@ -22,6 +22,7 @@ const myFloat = 6.667
 const myRice = 12
 
 console.log(typeof myInt, typeof myFloat)
+// % Остаток от деления числа
 const procent = 11 % 3
 console.log(procent)
 console.log(11 % 4)
