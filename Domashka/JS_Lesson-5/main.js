@@ -10,8 +10,8 @@ while (i < 12) {
 for (let i = 10; i >= 1; i--) {
     console.log(i)
 }
-// let i = 11
-// while (i > 1) {
-//     i--
-//     console.log(i)
-// }
+let cycle = 11
+while (cycle > 1) {
+    cycle--
+    console.log(cycle)
+}
