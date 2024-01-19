@@ -10,8 +10,9 @@ for (let i = 1; i < numbers.length; i = i + 2) {
     console.log(numbers[i])
 }
 
-const rainbow = ['Красный', 'Оранжевый', 'Желтый', 'Зеленый', 'Голубой', 'Синий', 'Фиолетовый']
+const rainbowcolors = ['Красный', 'Оранжевый', 'Желтый', 'Зеленый', 'Голубой', 'Синий', 'Фиолетовый']
 
-for (let i = rainbow.length-1; i >= 0; i--) {
-    console.log(rainbow[i]);
+for (let i = 6; i >= rainbowcolors; i--) {
+    console.log(rainbowcolors[i]);
 }
+
